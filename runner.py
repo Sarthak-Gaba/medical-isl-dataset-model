@@ -85,6 +85,5 @@ if __name__ == "__main__":
         else:
             print("### Starting to train.  ###")
             print(type(args))
-            print(shape(args))
             train_nn.fit(args)
             train_nn.evaluate(args)

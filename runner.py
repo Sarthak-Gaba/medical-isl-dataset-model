@@ -84,5 +84,7 @@ if __name__ == "__main__":
             print("###  Evaluated from pretrained model  ###")
         else:
             print("### Starting to train.  ###")
+            print(type(args))
+            print(shape(args))
             train_nn.fit(args)
             train_nn.evaluate(args)
